@@ -39,7 +39,7 @@ while true
     ylabel('Temperature (C)');
     grid on;
     
-    xlim([max(0,t-50) t+1]);   % sliding window
+    xlim([max(0,t-50) t+1]);
     
     drawnow;
     
@@ -79,4 +79,6 @@ while true
     
     t = t + 1;
     
+end
+
 end
